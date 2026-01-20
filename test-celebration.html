@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Celebration Effects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main-title">Test Celebration Effects</h1>
+            <div class="divider"></div>
+        </header>
+
+        <section class="countdown-section">
+            <button onclick="testCelebration()" class="start-countdown-btn">
+                Click to Test Fireworks & Balloons! 🎉
+            </button>
+            
+            <div id="weddingMessage" class="wedding-message" style="display: none;">
+                <p class="message-text">
+                    After 12 beautiful years of love, laughter, patience, and growing together,
+                    <br><br>
+                    today we step into a new chapter — hand in hand, hearts forever aligned.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function testCelebration() {
+            document.getElementById('weddingMessage').style.display = 'block';
+            startCelebration();
+        }
+    </script>
+</body>
+</html>
+
