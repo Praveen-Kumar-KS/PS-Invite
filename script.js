@@ -19,11 +19,11 @@ let countdownInterval;
 
 // Check if countdown is already started (from localStorage)
 function checkCountdownStatus() {
-    const countdownStarted = localStorage.getItem('countdownStarted');
+    //const countdownStarted = localStorage.getItem('countdownStarted');
     
-    if (countdownStarted === 'true') {
+    //if (countdownStarted === 'true') {
         startCountdown();
-    }
+    //}
 }
 
 // Start countdown function
@@ -33,7 +33,7 @@ function startCountdown() {
     countdownTimer.style.display = 'flex';
     
     // Set localStorage
-    localStorage.setItem('countdownStarted', 'true');
+    //localStorage.setItem('countdownStarted', 'true');
     
     // Start the countdown interval
     updateCountdown(); // Update immediately
