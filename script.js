@@ -8,6 +8,7 @@ const countdownButton = document.getElementById('countdownButton');
 const countdownTimer = document.getElementById('countdownTimer');
 const weddingMessage = document.getElementById('weddingMessage');
 const startButton = document.querySelector('.start-countdown-btn');
+const locationButton = document.querySelector('.location-btn');
 
 // Time display elements
 const daysElement = document.getElementById('days');
@@ -25,6 +26,10 @@ function checkCountdownStatus() {
         startCountdown();
     //}
 }
+
+locationButton.addEventListener('click', () => {
+    window.open('https://www.google.com/maps?q=Rani+Mahal,+Alappakam,+New+Perungalathur,+Chennai+-+600063', '_blank');
+});
 
 // Start countdown function
 function startCountdown() {

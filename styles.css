@@ -555,3 +555,16 @@ header {
     animation: fadeIn 2s ease-in, celebrationGlow 3s ease-in-out infinite;
 }
 
+.location-btn {
+    background-color: #ff6b9d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-btn:hover {
+    background-color: #c44569;
+}
