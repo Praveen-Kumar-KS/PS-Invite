@@ -55,7 +55,7 @@ header {
     width: 100%;
     max-width: 200px;
     height: auto;
-    border: 12px solid white;
+    border: 3px solid white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -374,7 +374,7 @@ header {
     }
 
     .hero-image img {
-        border: 8px solid white;
+        border: 3px solid white;
     }
 
     .start-countdown-btn {
